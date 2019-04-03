@@ -220,16 +220,22 @@ table {
   color: white;
   text-decoration: underline;
 }
+
 #input-search-container {
-  background-color: #333;
-  border-top: 2px solid gray;
+  background-color: gray;
+  border-top: 1px solid black;
   border-radius: 50px;
-  width: 100%;
+  width: 75%;
+  align-items: center;
+  margin: 4px;
+  padding: 0 4px;
+  align-self: center;
 }
 
 #input-search {
-  background-color: #333;
+  background-color: gray;
   border-style: none;
   color: white;
   width: 100%;
+  border-radius: 50px;
 }
