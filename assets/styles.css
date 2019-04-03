@@ -127,7 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+span:hover {
+  text-decoration: underline;
+}
 .col {
   flex-direction: column;
 }
@@ -138,8 +140,21 @@ table {
   width: 100%;
 }
 
+.contact {
+  color: #6e6e6e;
+  font-size: 0.6334em;
+  line-height: 1.2;
+  text-align: left;
+}
+
 .figure {
   max-width: 100%;
+}
+
+.footer {
+  width: 100%;
+  margin: 10px;
+  justify-content: center;
 }
 
 .header-background {
@@ -147,6 +162,10 @@ table {
   background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
     50% 100% no-repeat;
   height: 70vh;
+}
+
+.link-footer {
+  color: #08c;
 }
 
 .nav {
@@ -189,8 +208,32 @@ table {
   background-color: #333;
 }
 
+.site-format {
+  color: #08c;
+  font-size: 0.63em;
+  line-height: 1.2;
+  padding-right: 10px;
+  padding-left: 3px;
+  border-right: 1px solid lightgray;
+  height: 25%;
+}
+
+.site-format:hover {
+  text-decoration: underline;
+}
+
 #apple-icon-nav {
   font-size: 1.15rem;
+}
+#footer-left-col {
+  width: 36%;
+  padding: 10px 10px;
+}
+
+#footer-rigth-col {
+  max-width: 40%;
+  justify-content: flex-start;
+  padding: 10px 0px;
 }
 
 #header-heading {
@@ -242,4 +285,14 @@ table {
   color: white;
   width: 100%;
   border-radius: 50px;
+}
+
+#site {
+  display: inline;
+  height: 0;
+  float: left;
+  width: 51%;
+  padding-top: 1.5em;
+  text-align: right;
+  margin: 0;
 }
