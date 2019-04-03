@@ -12,7 +12,7 @@ Simple old Apple page copy clone made with HTML , CSS, Backgound and gradients.
 - Flexbox
   -Backgrounds
 
-[**Live Demo**]()
+[**Live Demo**](https://rawcdn.githack.com/MephistoDevelop/apple-copy/6af69c4d08e95c2b35c8c69e2889064ce5d29aed/index.html)
 
 **Coded by**
 [MephistoDevelop](https://www.github.com/mephistodevelop) & [Noincomedev](https://www.github.com/noincomedev)
